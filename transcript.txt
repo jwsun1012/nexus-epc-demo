@@ -1,0 +1,23 @@
+00:00:00,000 Higher fidelity for d electron materials
+
+We provide higher-fidelity electron-phonon interaction data for materials where conventional P B E calculations fall short, especially compounds with d electrons. These are materials where the electronic structure and atomic vibrations can be difficult to predict. Our SCAN and r-squared SCAN workflow is built to make that data more reliable.
+
+00:00:23,100 Published comparison with PBE
+
+Cobalt oxide is a clear example. P B E predicts a metallic state and spurious lattice instabilities. Our r-squared SCAN calculations recover an insulating state and remove those instabilities, with phonons closer to experiment. Together with the nickel oxide benchmarks, this shows why advanced functionals can provide substantially more faithful coupling data for these d-electron systems.
+
+00:00:49,100 Accuracy efficiency and transferability
+
+The aim is to bring accuracy, efficiency, and transferability together. We use the same functional framework across different material classes, without fitting a Hubbard U for each material. That gives us a practical route to higher-fidelity datasets for superconductors, semiconductors, and energy materials. Researchers can trace each result back to its calculation.
+
+00:01:13,500 MgB2 VASP workflow
+
+Let us use magnesium diboride as a concrete example. We start with the crystal structure and the VASP calculation settings. Our published workflow uses r-squared SCAN, finite displacements, and Wannier interpolation to calculate the electronic bands, phonons, and electron-phonon coupling. The screen shows the settings reported for this calculation.
+
+00:01:36,750 MgB2 coupling spectrum and strength
+
+The result is a material-specific coupling spectrum. For magnesium diboride, our published r-squared SCAN calculation gives a coupling strength of zero point seven three, compared with zero point six seven from P B E. The dominant contribution comes from boron bond-stretching vibrations. This example shows what we provide: electronic and vibrational information connected to a quantitative coupling result.
+
+00:02:03,800 High fidelity data for materials research
+
+Our goal is to give materials researchers high-fidelity, material-specific electron-phonon data they can use to evaluate promising candidates. The scientific foundation is established in our published work. We are now developing the workflow automation, broader validation, and customer pilots needed to turn that research capability into a usable service.
